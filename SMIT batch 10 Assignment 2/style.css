@@ -1,0 +1,55 @@
+h1{text-align:center;
+    font-family:Franklin Gothic ; 
+    background-color:rgb(251, 131, 26)}
+    ul{text-align:left;}
+a{text-decoration: none;}
+    li{font-family:Tahoma ; display:block; }
+
+li.bar{color: rgb(182, 93, 75); 
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: Cambria;}
+li.pizz{color: rgb(210, 30, 48); 
+        text-transform: uppercase;
+        font-size: larger;
+        font-family: Cambria;}
+li.ffood{color: #23cd64; 
+            text-transform: uppercase;
+            font-size: larger;
+            font-family: Cambria;}
+li.cb{color: hsl(180, 87%, 36%); 
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: Cambria;
+    }
+    li.cbp {color: hwb(314 10% 6%); 
+        text-transform: uppercase;
+        font-size: larger;
+        font-family: Cambria;
+        }
+        li.cb {color: rgb(140, 203, 57); 
+            text-transform: uppercase;
+            font-size: larger;
+            font-family: Cambria;
+            }
+            li.cck {color: hwb(27 2% 54% / 0.965); 
+                text-transform: uppercase;
+                font-size: larger;
+                font-family: Cambria;
+                } li.cds{color: #1f15d7; 
+                    text-transform: uppercase;
+                    font-size: larger;
+                    font-family: Cambria;
+                    } li.cfr {color: #070a03; 
+                        text-transform: uppercase;
+                        font-size: larger;
+                        font-family: Cambria;
+                        } li.cgs {color: #d7e209; 
+                            text-transform: uppercase;
+                            font-size: larger;
+                            font-family: Cambria;
+                            } li.cmb {color: #d73b07; 
+                                text-transform: uppercase;
+                                font-size: larger;
+                                font-family: Cambria;
+                                }

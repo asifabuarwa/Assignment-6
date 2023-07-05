@@ -1,0 +1,23 @@
+*{background-color:#df2525}
+h2{ text-align: center; 
+    font-family: Courier New;
+     font-size: large; 
+     font-size: x-large;
+      color: aliceblue;
+      text-transform: uppercase;}
+      table,tr,td{ font-family: Courier New; font-weight: bolder; color:aliceblue;}
+    td>button{
+        background-color: blanchedalmond;
+        padding: 05px 60px;
+        width: 200px;
+        margin-left: 650px;
+        font-size:medium;
+        font-weight: bold;
+        text-transform:uppercase;
+        
+    }
+    input[type="text"],input[type="number"],input[type="email"] ,input[type="date"]{ background-color: aliceblue;
+
+    }
+    select{ background-color: aliceblue;}
+   

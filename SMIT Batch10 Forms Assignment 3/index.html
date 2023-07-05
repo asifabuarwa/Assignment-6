@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+
+</head>
+
+<body>
+
+    <h2>Student Registration Form</h2> <br> <br>
+        
+        <form action="">
+            <table>
+            <tr>
+            
+            <td>First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="username" size="45" maxlength="20"> (Max 30 characters a-z and A-Z) <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="username" size="45" maxlength="20"> (Max 30 characters a-z and A-Z)<br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>D.O.Birth:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="birth date" /><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>E-Mail I.D: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" size="30" maxlength="30"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Contact No &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="mobile number" size="13" maxlength="130"> (10 digit number)<br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input id="male" type="radio" name="gender" value="m">
+                <label for="male">Male</label>
+                <input id="female" type="radio" name="gender" value="m">
+                <label for="female">Female</label><br><br>
+                    </td>
+        </tr> 
+        <tr>
+           <td>Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+                    </td>
+                </tr>
+        <tr>
+                <td>City: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                           
+                    <select name="Location" id="Location" required>
+                            <option value="">Select The City</option>
+                            <option value="Islamabad">Islamabad</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Rawalpindi">Rawalpindi</option>
+                            <option value="Sialkot">Sialkot</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Sukkur">Sukkur</option>
+                            <option value="Peshawar">Peshawar</option>
+                            <option value="Gwadar">Gwadar</option>
+                            <option value="Quetta">Quetta</option>
+                        </select>(max 30 characters a-z and A-Z)<br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <select name="country" > 
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Bahrain">Bahrain</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                             
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Korea, Republic of">Korea, Republic of</option>
+                        <option value="Kuwait">Kuwait</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="Mali">Mali</option>
+                        <option value="Malta">Malta</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Oman">Oman</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Sudan">Sudan</option>
+                        <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="United States">United States</option>
+                        <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                       
+                    </select><br><br>
+        </tr>
+                
+                <tr>
+                    <td>PIN CODE: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number">(6 digit numbers only) <br><br>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                <td >Courses Applied For <br><br>
+                <input type="checkbox" name="Course" value=" BSCS" checked="checked"/>BSCS
+                <input type="checkbox" name="Course" value="MSCS"/>MSCS <br> <br><br>
+            </td>
+                </tr>
+                <tr class="button">
+                    <td><button>Submit</button><br> 
+                    </td>
+                </tr>
+                
+            
+            </table>
+        </form>
+    
+   
+</body>
+
+</html>

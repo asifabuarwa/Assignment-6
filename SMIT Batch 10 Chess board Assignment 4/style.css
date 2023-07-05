@@ -1,0 +1,22 @@
+body{ background-color: rgb(21, 220, 48);
+    }
+
+h1 { border:12px solid;
+text-align: center;
+text-decoration:dashed;
+font-display:initial;
+font-family:sans-serif ; background-color:hsl(122, 89%, 33%);font-style:normal;}
+
+.box { 
+    margin-left:300px;
+    margin-top:05px;
+    font-size:66px;
+    width:900px;
+    height:500px;
+    text-align:center; }
+.empty>td {padding: 40px;}
+
+table, th, td {
+    border: 15px solid;
+  }
+
